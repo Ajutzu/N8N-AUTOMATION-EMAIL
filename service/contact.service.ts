@@ -11,7 +11,7 @@ export interface ContactResponse {
 }
 
 /**
- * Sends contact form data to n8n Cloud webhook
+ * Sends contact form data to n8n Cloud webhooks
  */
 export async function submitContactForm(
   data: ContactFormData
